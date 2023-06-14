@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -f 1 webserver_logs.tsv | sort | uniq -c | sort -nr | head -n 11
+sort -k1,1 -nr input.log | head -n 11
