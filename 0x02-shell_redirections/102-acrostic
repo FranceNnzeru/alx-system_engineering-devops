@@ -1,2 +1,2 @@
 #!/bin/bash
-tac input.txt | tr -d '\n' | head -n 1
+rev input.txt | tac | tr -d '\n' | head -n 1
