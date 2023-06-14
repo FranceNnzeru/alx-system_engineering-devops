@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -e l | paste -s -d ''
+tac input.txt | tr -d '\n' | head -n 1
